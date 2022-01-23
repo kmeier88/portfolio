@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +15,7 @@
 <body>
         <div class="wrapper">
     <header class="primary-header flex">
-        <img class="logo" src="img/kirk logo-01.png" alt="Personal logo for Kirk Meier">
+        <img class="logo" src="img/klogo.png" alt="Personal logo for Kirk Meier">
 
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
             <span class="sr-only">Menu</span>
@@ -50,13 +53,16 @@
     </header>
     </div>
     <section id="home">
-        <h1>Kirk<br>
-            Meier</h1>
+        
+        <h1>Kirk<br>Meier</h1>
+        <h3>Web Development and Design</h3>
+      
+       
     </section>
-    <section id="about">
+    <section class="container" id="about">
         <h2>About</h2>
     </section>
-    <section id="art">
+    <section class="container" id="art">
         <h2>Art</h2>
      <div class="gallery">
         <figure class="gallery__item gallery__item--1">
@@ -121,11 +127,17 @@
         </figure>
      </div>
     </section>
-    <section id="webdev">
+    <section class="container" id="webdev">
         <h2>Web Development Projects</h2>
     </section>
-    <section id="contact">
+    <section class="container" id="contact">
         <h2>Contact</h2>
+        <div id="contact--info">
+            <h3>(802) 522-6170</h3>
+            <h3>d.kirk.meier@gmail.com</h3>
+            <h3>260 South Union Street <br>
+                Burlington, VT 05401</h3>
+        </div>
     </section>
 </body>
 </html>

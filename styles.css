@@ -7,10 +7,9 @@
 }
 
 body {
-    font-family: ;
-    font-size: ;
-    color: ;
-    background-color: ;
+    font-family: 'Roboto', sans-serif;
+    color: #F2F2F2;
+    background-color: #A6A6A6;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -38,8 +37,8 @@ body {
 
 .logo {
     margin: 1rem;
-    width: 90px;
-    height: 90px;
+    width: 175px;
+    height: 175px;
 }
 
 .primary-navigation {
@@ -59,11 +58,14 @@ body {
 
 .primary-navigation a {
     text-decoration: none;
+    color:#0D0D0D;
+    font-weight: 500;
 }
 
 .primary-navigation a > span {
-    font-weight: 700;
+    font-weight: 900;
     margin-inline-end: .75em;
+    color: #F2F2F2;
 } 
 
 @media (max-width: 35em) {
@@ -141,11 +143,40 @@ body {
     height: 100vh;
 }
 
+.container h2 {
+    position: relative;
+    top: 20%;
+    left: 2%;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#contact--info h3 {
+    position: relative;
+    top: 10em;
+    left: 1em;
+    font-size: 2rem;
+}
+
+#home h1 {
+    position: relative;
+    left: 20%;
+    top: 35%;
+    font-size: 7rem;
+}
+
+#home h3 {
+    position: relative;
+    left: 20%;
+    top: 35%;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
 .gallery {
   width: 90%;
   margin: 5rem auto; 
   padding: 5px;
-  padding-bottom: 50px;
 }
 
 .gallery {
@@ -303,15 +334,3 @@ body {
     grid-row-end: 17;
 }
 
-
-#home {
-    background-color: steelblue;
-}
-
-#art {
-    background-color: grey;
-}
-
-#about {
-    background-color: blue;
-}
